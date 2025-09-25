@@ -6,8 +6,12 @@ This policy applies to all versions of the app distributed through TestFlight an
 
 
 ## Disclaimer
-This app is designed to calculate day/night splits as accurately as possible, but no guarantee is made as to the accuracy or fitness of the information provided. 
-Airport data is sourced from a public domain database that carries the same terms. Users should independently verify all outputs and must not use the information for any safety-of-life purpose.
+
+This app calculates day/night splits using astronomical models. The results depend entirely on the data you enter, so typos or missing details can produce incorrect calculations.
+
+While the app checks for edge cases and warns when accuracy might suffer (for example, at very high latitudes), unforeseen bugs or data limitations can still slip through. If something looks odd, double‑check your inputs or try a different method.
+
+Airport information comes from OurAirports and may contain inaccuracies. This tool is meant for personal logbook reference only and should not be relied on for flight planning, navigation, or safety‑critical decisions. Users are responsible for verifying that results are reasonable and comply with applicable regulations before logging flight time.
 
 ## Support
 For support, bug reports, or feature requests, please email nzscion+flightcalc@gmail.com  
